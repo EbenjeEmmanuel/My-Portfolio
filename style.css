@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: aqua; */
+  /* overflow: hidden; */
+}
+/* MY NAVIGATION SETTINGS */
+header {
+  /* border: 2px solid black; */
+  padding: 1rem;
+  width: 100%;
+  background-color: #6b8aa7;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+ul li a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  background-color: #6b8aa7;
+  color: #87bdf1;
+}
+a:active {
+  text-decoration: underline;
+}
+.logo {
+  margin-right: auto;
+  font-weight: bold;
+  color: white;
+}
+/* HOME SECTION */
+.home-section {
+  display: flex;
+  width: 100%;
+  background-color: #384959;
+  min-height: 100vh;
+}
+.text-container {
+  /* border: 2px solid saddlebrown; */
+  padding: 2rem;
+  text-align: start;
+  height: 85vh;
+  width: 57%;
+}
+.text-container p {
+  /* margin: 0.5rem 1rem; */
+  padding: 0.5rem;
+  color: #ffffff;
+}
+.text-container h1 {
+  color: #ffffff;
+  margin-top: 3rem;
+}
+.text-container h2 {
+  color: #ffffff;
+}
+.ol-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5rem;
+}
+ol {
+  list-style: none;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.bi {
+  color: #6b8aa7;
+}
+.img-wrapper {
+  /* border: 2px solid black; */
+  width: 40%;
+  max-height: 100vh;
+  margin-left: auto;
+}
+.img-wrapper img {
+  width: 95%;
+  height: 95vh;
+}
+
+/* ABOUT SECTION */
+.about-me-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #384959;
+}
+.about-me-content {
+  width: 40%;
+  height: 100vh;
+  /* border: 2px solid black; */
+}
+.about-me {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 1rem;
+  margin-left: 5rem;
+  color: #87bdf1;
+}
+.about-me-text {
+  text-align: justify;
+  line-height: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem;
+  color: #ffffff;
+  margin-left: 5rem;
+}
+.about-me-img {
+  /* border: 2px solid red; */
+  width: 40%;
+  max-height: 100vh;
+  margin-left: auto;
+  margin-top: 1rem;
+}
+.about-me-img img {
+  width: 95%;
+  height: 95vh;
+}
