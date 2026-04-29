@@ -6,9 +6,12 @@
 /* MY NAVIGATION SETTINGS */
 header {
   /* border: 2px solid black; */
-  padding: 1rem;
+  padding: 0.5rem;
   width: 100%;
   background-color: #6b8aa7;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 ul {
   display: flex;
@@ -31,6 +34,7 @@ a:active {
   margin-right: auto;
   font-weight: bold;
   color: white;
+  font-size: 1.5rem;
 }
 /* HOME SECTION */
 .home-section {
@@ -121,4 +125,97 @@ ol {
 .about-me-img img {
   width: 95%;
   height: 95vh;
+}
+/* CONTACT ME PAGE|FOOTER */
+footer {
+  background-color: #384959;
+  min-height: 100vh;
+  overflow: hidden;
+  max-width: 100%;
+  /* border: 2px solid black; */
+}
+.footer-container {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+.footer-container h2 {
+  color: #ffffff;
+}
+.footer-form {
+  /* border: 2px solid black; */
+  color: #ffffff;
+  margin: 2rem;
+  max-width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #384959;
+}
+.footer-form P {
+  color: #ffffff;
+  font-family: oswald;
+}
+input::placeholder {
+  font-family: oswald;
+}
+.legend-text {
+  font-family: oswald;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+textarea::placeholder {
+  font-family: oswald;
+}
+textarea {
+  width: 100%;
+}
+.text-area-container {
+  display: flex;
+}
+.submit-button {
+  /* border: 2px solid black; */
+  background-color: #6b8aa7;
+  border-radius: 10px;
+  width: 25%;
+  text-align: center;
+  height: 6vh;
+  border: none;
+}
+.contact-me {
+  /* border: 2px solid black; */
+  width: 40%;
+}
+.contact-me p {
+  text-align: center;
+  padding: 0.5rem;
+}
+.icon {
+  padding: 0.5rem;
+}
+.bi {
+  width: 100px;
+}
+.icon a {
+  background-color: #384959;
+}
+.icon-format {
+  font-size: 2rem;
+  color: #ffffff;
+}
+.span-text a{
+  color: white;
+  text-decoration: none;
+  font-family: oswald;
+  font-weight: light;
+}
+.span-text a:hover {
+  color: #87bdf1;
+  background-color: #384959;
+}
+.span-text a:active {
+  text-decoration: underline;
 }

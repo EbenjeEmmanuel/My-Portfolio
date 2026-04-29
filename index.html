@@ -16,6 +16,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -51,9 +57,7 @@
         </div>
       </div>
       <div class="img-wrapper">
-        <img
-          src="img/my-pic.jpeg"alt="my picture"
-        />
+        <img src="img/my-pic.jpeg" alt="my picture" />
       </div>
     </section>
 
@@ -75,5 +79,86 @@
         <img src="img/home-pic.jpeg" alt="my-pic" />
       </div>
     </section>
+
+    <footer>
+      <div class="footer-container" id="contact">
+        <h2>WHAT CAN I HELP YOU WITH</h2>
+      </div>
+      <div class="footer-form">
+        <form action="/submit-form">
+          <fieldset>
+            <legend><p class="legend-text">HELP DESK</p></legend>
+            <label for="firstname"><p>FIRSTNAME:</p></label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="John"
+            /><br />
+            <br />
+            <label for="lastname"><p>LASTNAME:</p> </label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Doe"
+            />
+            <br />
+            <br />
+            <div class="text-area-container">
+              <label for="textarea"><p>MESSAGE:</p></label>
+              <textarea
+                name="message"
+                rows="10"
+                cols="30"
+                id="textarea"
+                placeholder="How may i help you"
+              ></textarea>
+              <br />
+            </div>
+            <br />
+            <button type="submit" class="submit-button">
+              <p class="submit-button-text">Submit</p>
+            </button>
+          </fieldset>
+        </form>
+        <div class="contact-me">
+          <fieldset>
+            <legend><p>CONTACT ME</p></legend>
+            <div class="contact-item">
+              <span class="icon">
+                <a href="mailto:emmanuelebenje@gmail.com"><i class="bi bi-envelope-at icon-format"></i></a>
+              </span>
+              <span class="span-text"><a href="mailto:emmanuelebenje@gmail.com" title="Gmail">SEND A MAIL</a></span>
+            </div>
+            <div>
+              <span class="icon">
+                <a href="tel:+2348102738733"><i class="bi bi-whatsapp icon-format"></i></i></a>
+              </span>
+              <span class="span-text"><a href="tel:+2348102738733" title="Whatsapp"><span>SEND A TEXT</span></a></span>
+            </div>
+            <div>
+              <span class="icon">
+                <a href="https://www.facebook.com/share/1DkqMPicij/"><i class="bi bi-facebook icon-format"></i></i></i></a>
+              </span>
+              <span class="span-text"><a href="https://www.facebook.com/share/1DkqMPicij/" title="Facebook"><span>VIEW PROFILE</span></a></span>
+            </div>
+
+            <div class="linkedin">
+              <span class="icon">
+                <a href="https://www.linkedin.com/in/emmanuel-ebenje-09923a18a?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="bi bi-linkedin icon-format"></i></i></i></i></a>
+              </span>
+              <span class="span-text"><a href="https://www.linkedin.com/in/emmanuel-ebenje-09923a18a?utm_source=share_via&utm_content=profile&utm_medium=member_android" title="LinkedIn"><span>PROFESSIONAL PROFILE</span></a></span>
+            </div>
+            <div>
+              <span class="icon">
+                <a href="https://www.instagram.com/a_me_grin?igsh=dHVrdTFldDEzM2N0"><i class="bi bi-instagram icon-format"></i></i></i></i></a>
+              </span>
+              <span class="span-text"><a href="https://www.instagram.com/a_me_grin?igsh=dHVrdTFldDEzM2N0" title="Instagram"><span>PROFESSIONAL PROFILE</span></a></span>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
