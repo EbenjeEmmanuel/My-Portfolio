@@ -94,8 +94,9 @@ ol {
 }
 .about-me-container {
   min-width: 50%;
-  min-height: 70vh;
-  /* border: 2px solid black; */
+  max-height: 100vh;
+  border: 2px solid black;
+  overflow: auto;
 }
 .about-me {
   font-size: 3rem;
