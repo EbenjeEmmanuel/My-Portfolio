@@ -115,7 +115,8 @@ ol {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 1.5rem;
   color: #ffffff;
-  margin: 0 2rem;
+  position: relative;
+  left: 3rem;
 }
 .about-me-img {
   /* border: 2px solid red; */
