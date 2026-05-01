@@ -119,6 +119,7 @@ ol {
   left: 3rem;
   outline-style: double;
   outline-color: #6b8aa7;
+  outline-offset: 0.5rem;
 }
 .about-me-img {
   /* border: 2px solid red; */
