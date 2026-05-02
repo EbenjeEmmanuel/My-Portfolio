@@ -163,7 +163,7 @@ footer {
 }
 .footer-form P {
   color: #ffffff;
-  font-family: oswald;
+  font-family: "oswald", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 input::placeholder {
   font-family: oswald;
