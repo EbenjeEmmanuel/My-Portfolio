@@ -99,6 +99,9 @@ ol {
   /* border: 2px solid black; */
   overflow: auto;
 }
+.about-me-container:hover {
+  font-size: 1.2rem;
+}
 .about-me {
   font-size: 3rem;
   font-weight: bold;
