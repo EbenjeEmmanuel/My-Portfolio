@@ -22,13 +22,24 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
       rel="stylesheet"
     />
+    <script>
+function initFreshdesk() {
+  window.fdWidget.init({
+    token: "01KRJTSWCR70MPP68Y59PHSZ36",
+    host: "https://emmanuelebenje.freshdesk.com",
+    widgetId: "01KRJTSYPHD0KSQMZHB92YMSCQ"
+  });
+}
+
+function initialize(i,t){var e;i.getElementById(t)?initFreshdesk():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://emmanuelebenje.freshdesk.com/webchat/js/widget.js",e.onload=initFreshdesk,i.head.appendChild(e))}function initiateCall(){initialize(document,"Freshdesk-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+</script>
   </head>
   <body>
     <header>
       <nav>
         <ul>
           <li class="logo">EMMYGRIN</li>
-          <li><a href="#home">HOME</a></li>
+          <li class="active"><a href="#home">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
